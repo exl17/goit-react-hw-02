@@ -1,0 +1,11 @@
+.description {
+    margin: 20px;
+}
+
+p {
+font-size: large;
+}
+
+p:last-child {
+    margin-top: 20px;
+}
