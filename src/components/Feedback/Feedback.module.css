@@ -1,0 +1,32 @@
+.feedback {
+    margin: 20px;
+}
+
+.feedback p {
+    margin-bottom: 10px;
+}
+
+.good {
+    color: green;
+}
+
+.neutral {
+    color: orange;
+}
+
+.bad {
+    color: red;
+}
+
+.total {
+    font-weight: bold;
+}
+
+
+.positiveBlue {
+    background-color: lightblue;
+}
+
+.positiveRed {
+    background-color: lightcoral;
+}
