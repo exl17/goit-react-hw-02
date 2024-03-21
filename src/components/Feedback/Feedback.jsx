@@ -2,13 +2,6 @@ import React from 'react';
 import styles from './Feedback.module.css';
 
 function Feedback({ feedback, totalFeedback, positivePercentage }) {
-  if (totalFeedback === 0) {
-    return (
-      <div className={styles.notification}>
-        No feedback yet
-      </div>
-    );
-  }
 
   return (
     <div className={styles.feedback}>
@@ -22,3 +15,7 @@ function Feedback({ feedback, totalFeedback, positivePercentage }) {
 }
 
 export default Feedback;
+
+
+
+
